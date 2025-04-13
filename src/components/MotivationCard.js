@@ -31,12 +31,12 @@ export default function MotivationCard() {
     fetchQuote();
     const interval = setInterval(fetchQuote, 10000); 
     return () => clearInterval(interval);
-  }, []);
+  }, [fetchQuote]);
 
   return (
     <div className="max-w-md mx-auto bg-gradient-to-r from-pink-400 to-purple-500 text-white p-6 rounded-2xl shadow-lg text-center mt-6">
       <h2 className="text-xl font-bold mb-4">Motivation for You 💖</h2>
-      <p className="italic text-lg mb-2">"{quote}"</p>
+      <p className="italic text-lg mb-2">&quot;{quote}&quot;</p>
       <p className="text-sm">- {author}</p>
     </div>
   );

@@ -22,7 +22,7 @@ export default function FakeCallPage() {
       clearTimeout(timer);
       audio.pause();
     };
-  }, []);
+  }, [router]);
 
   const handleAnswer = () => {
     alert("Mom: Hey! Where are you? I’m coming to get you.");
