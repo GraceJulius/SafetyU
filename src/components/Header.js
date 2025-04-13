@@ -2,16 +2,16 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-gray-800 text-white p-4 shadow-md">
+    <header className="bg-brand-purple text-pink p-4 shadow-md rounded-b-xl">
       <nav className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-xl font-bold">
-          SafetyU
+        <Link href="/" className="text-2xl font-bold tracking-wide">
+          SafetyU 💖
         </Link>
-        <div className="space-x-4">
-          <Link href="/" className="hover:text-gray-300">
+        <div className="space-x-4 text-sm">
+          <Link href="/" className="hover:text-brand-pink transition">
             Home
           </Link>
-          <Link href="/dashboard" className="hover:text-gray-300">
+          <Link href="/dashboard" className="hover:text-brand-pink transition">
             Dashboard
           </Link>
         </div>
