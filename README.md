@@ -1,42 +1,113 @@
-# Women Safety Web App - By Grace Julius
+# Women Safety Web App 🚨
 
-This is a Next.js based Web App designed to help women feel safer and stay connected during emergency situations.
+## Project Success Internship | Spring 2025  
+*By Grace Julius - Lincoln University of Pennsylvania*
+
+---
+
+## Overview
+This project was developed during my on-campus internship for Project Success. The goal of the Women Safety Web App is to provide female students with essential safety tools that are accessible, easy to use, and impactful during emergency situations.
+
+This web application focuses on creating a safer environment using modern technology.
+
+---
 
 ## Features
-- Emergency Panic Button to send alerts to trusted contacts
-- Manage Trusted Contacts (Add/Edit/Delete)
-- Location Tracking (using Geolocation API)
-- AI Threat Detection (Simulated)
-- Alert History View
-- Calm Affirmation Pop-up for Anxiety Relief
-- Fake Incoming Call Simulation
-- Safety Tips Page for Personal Awareness
 
-## Pages
-| Page | Route | Purpose |
-|------|-------|---------|
-| Dashboard | /dashboard | Main safety features |
-| Fake Call | /fakecall | Simulated call screen |
-| Safety Tips | /safetytips | Helpful safety guidelines |
+### 🔴 Emergency Panic Button
+- Instantly triggers an alert
+- Notifies trusted contacts
+- Floating panic button for easy access
+
+### 📍 Live Location Tracking
+- Shows real-time user location
+- Displays coordinates & accuracy
+- Visual map powered by Google Maps API
+
+### 👥 Manage Trusted Contacts
+- Add / Edit / Delete emergency contacts
+- Contacts stored using local storage
+
+### 🚨 AI Threat Detection (Simulated)
+- Randomized threat simulation
+- Auto-alert trigger when threat detected
+
+### ☎️ Fake Call Simulation
+- Visual incoming call screen
+- Helps escape uncomfortable situations
+- Optional message after answering
+
+### 💬 Motivational Quote Card
+- Auto-updating real quotes every 10 seconds
+- Fetches quotes online (with fallback quotes)
+- Beautiful neon card design for user encouragement
+
+### 📖 Safety Tips Page
+- Simple guide with safety advice
+
+### ✅ Check-In Safe Button
+- Notifies contacts that you arrived safely
+
+### 🌐 Safety Resources Page
+- Useful links and emergency numbers
+
+---
 
 ## Technologies Used
-- Next.js
-- Tailwind CSS
-- React Hooks
-- EmailJS (for sending alerts)
-- AI Simulation Logic
-- LocalStorage for Contacts
-- Geolocation API
-- Toast Notifications
+| Technology | Purpose |
+|------------|---------|
+| Next.js | Frontend Framework |
+| Tailwind CSS | Styling & Responsive Design |
+| EmailJS | Sending Email Alerts |
+| Firebase (Config Ready) | For future backend integration |
+| Geolocation API | Real-time Location Tracking |
+| Axios | API Requests for Quotes |
+| LocalStorage | Storing User Contacts |
+| Google Maps API | Location Visualization |
 
-## Future Enhancements
-- Real-time Live Location Sharing
-- Backend Integration with Firebase or Node.js
-- Push Notifications
-- User Authentication
-- Wearable Device Integration
+---
 
-## Developed by:
-Grace Julius  
-Lincoln University of Pennsylvania  
-Computer Science Major  
+## Screenshots
+
+###  Dashboard View 
+![Dashboard Screenshot](public/images/dashboard.png) 
+
+### Fake Call Simulation  
+![Fake Call](public/images/fakecall.png)
+
+### Motivational Card 
+![Motivational Card](public/images/motivation.png)
+
+ ### Location Tracking  
+
+![Location ](public/images/map.png)
+---
+
+## Challenges Faced
+- Building realistic safety features with limited backend resources
+- Handling network errors gracefully
+- Designing user-friendly and calm interfaces under pressure
+
+---
+
+## Key Takeaways
+- Strengthened frontend development skills
+- Gained experience in user-centered design
+- Improved technical problem-solving abilities
+- Passion for building technology for social good
+
+---
+
+## Future Improvements
+- Real-time location sharing with backend storage
+- Push notifications for alerts
+- Authentication system with Firebase
+- Integration with wearable devices
+- Advanced AI threat detection using sensors
+
+---
+
+## Special Thanks
+- Project Success Program - Lincoln University
+- My Faculty mentor Dr. Tiffanie R. Smith
+
